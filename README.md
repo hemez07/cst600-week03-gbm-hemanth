@@ -170,7 +170,7 @@ cst600-week03-gbm-hemanth/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<hemez07>/cst600-week03-gbm-hemanth.git
+git clone https://github.com/hemez07/cst600-week03-gbm-hemanth.git
 cd cst600-week03-gbm-hemanth
 
 # 2. Create and activate a virtual environment

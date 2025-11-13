@@ -1,0 +1,65 @@
+# ==========================
+# Python Virtual Environment
+# ==========================
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==========================
+# OS and Editor Files
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Data Files
+# ==========================
+# Keep only processed CSVs if small, ignore raw data and large files
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/breast_cancer_clean.csv
+
+# ==========================
+# Output & Figures
+# ==========================
+outputs/
+figures/
+
+# ==========================
+# Jupyter or Logs (if any)
+# ==========================
+*.ipynb_checkpoints
+logs/
+*.log
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
+*.old
+
+# ==========================
+# PowerPoint / Video Cache
+# ==========================
+ppt/~$*
+*.mp4
+*.mov
+*.avi
+*.wav
+
+# ==========================
+# Environment / Dependency
+# ==========================
+*.env
+.env/
+pip-wheel-metadata/
